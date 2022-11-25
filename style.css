@@ -54,15 +54,15 @@ body{
 .container{
     border: 1px solid rgb(47, 202, 210);
     border-radius: 50%;
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
     box-shadow: 0 0 80px rgb(47, 202, 210);
 }
 .timer_time-left{
     font-family:cursive;
 }
 .h2{
-    margin-top: 80px;
+    margin-top: 20px;
     font-family: Brush Script MT, Brush Script Std, cursive;
     letter-spacing: 5px;
 }
