@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+}
+body{
+    height: 100vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    animation: myanimation 25s infinite;
+}
+@keyframes myanimation {
+    5%{background-color: rgb(91, 88, 88);}
+    10%{background-color: rgb(216, 121, 121);}
+    20%{background-color: #342e35;}
+    30%{background-color: rgb(118, 181, 181);}
+    40%{background-color: rgb(243, 216, 173);}
+    50%{background-color: rgb(111, 146, 146);} 
+    60%{background-color: #f5aab4;}
+    70% {background-color: black;}
+    80%{background-color: aqua;}
+    90%{background-color: rgb(145, 246, 246);}
+    100%{background-color: rgb(121, 109, 109);}
+}
+.timer_display{
+    font-size: 50px;
+    margin-bottom: 50px;
+    color: #fff;
+    text-shadow: 0 0 10px rgb(47, 202, 210);
+  
+}
+.timer_controls{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    
+}
+.timer_button{
+    border: none;
+    padding: 4px 10px;
+    border-radius: 50px;
+    font-size: 22px;
+    text-shadow: 0 0 10px rgb(47, 202, 210);
+    border: 0.2px solid rgb(47, 202, 210); ;
+    background-color: transparent;
+    color: white;
+    font-weight: 500;
+    box-shadow:  0 0 10px rgb(47, 202, 210);
+}
+.timer_button:hover{
+    background-color: rgb(249, 242, 242);
+    color: #f5576c;
+    cursor: pointer;
+}
+.container{
+    border: 1px solid rgb(47, 202, 210);
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+    box-shadow: 0 0 80px rgb(47, 202, 210);
+}
+.timer_time-left{
+    margin-top:140px;
+}
